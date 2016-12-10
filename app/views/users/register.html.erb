@@ -1,0 +1,16 @@
+<h2>Register for daily cat facts</h2>
+
+<form action="create_profile" method="post">
+  <input type="text" name="name" placeholder="Full Name" /> <br />
+  <input type="text" name="address" placeholder="Street Address" /><br />
+  <input type="text" name="city" placeholder="City" /><br />
+  <input type="text" name="state" placeholder="State" /><br />
+  <input type="number" name="zip" placeholder="Zip Code" /><br />
+  <input type="text" name="country" placeholder="Country" /> <br />
+  <input type="email" name="email" placeholder="Email Address" /> <br />
+  <input type="text" name="user_id" placeholder="User ID" required/><br />
+  <input type="password" name="password" placeholder="Password" required/><br />
+  <input type="submit" value="Register" /> <hr />
+</form>
+
+<%= flash[:alert] %>

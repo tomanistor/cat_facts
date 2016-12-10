@@ -1,0 +1,11 @@
+<h1>Welcome to www.Cats.com</h1>
+
+<form action="register_or_login" method="get">
+  <input type="text" name="user_id" placeholder="User ID"/><br />
+  <input type="password" name="password" placeholder="Password"/><br />
+  <input type="submit" value="Log in" name="commit"/> <input type="submit" value="Register" name="commit"/>
+</form>
+
+<br />
+
+<%= flash[:alert] %>
